@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/portfolio/', // 👈 necesario para GitHub Pages
+  base: './', // 👈 rutas relativas para Vercel
 })
