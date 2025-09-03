@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CAPA BASE: Define los colores de fondo para todo el body */
+@layer base {
+  body {
+    /* Aplica los colores de fondo base para modo claro y oscuro */
+    @apply bg-custom-white dark:bg-dark-bg;
+  }
+}
+
+/* Patrón de puntos reutilizable */
+@layer utilities {
+  .bg-dotted-pattern {
+    /* Modo claro */
+    background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.08) 3px, transparent 0);
+    background-size: 25px 25px;
+  }
+  .dark .bg-dotted-pattern {
+    /* Modo oscuro */
+    background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.08) 3px, transparent 0);
+  }
+}
+
+
+/* Scroll suave global para toda la navegación */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mejoras de accesibilidad para focus */
+*:focus {
+  outline: 2px solid #E41B17;
+  outline-offset: 2px;
+}
