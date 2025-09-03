@@ -47,7 +47,7 @@ export const experience = [
   {
     role: "Pasante de SAP / Análisis de Datos",
     company: "ARTECH / Fundación Pescar",
-    period: "Julio 2024 – Actualidad",
+    period: "Julio 2025– Actualidad",
     tasks: [
       "Formación técnica (237 hs) en SAP (SQL, ABAP, Fiori, JavaScript, SAP BTP) y análisis de datos (SQL, Power BI, Python, Databricks, PowerApps).",
       "Desarrollo de habilidades socioemocionales (180 hs) en comunicación, liderazgo, trabajo en equipo y empleabilidad.",
